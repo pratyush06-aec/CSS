@@ -1,0 +1,47 @@
+/* h1{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+} */
+
+
+h1{
+    text-align:end;
+}
+
+
+p{
+    text-align:start;
+}
+
+p{
+    text-decoration: underline;
+}
+
+h1{
+    text-decoration:overline;
+}
+
+footer{
+    text-decoration:line-through;
+}
+
+a{
+    text-decoration:none;                   /* Helps in removal of the under-line of the line (click here). */
+}
+
+
+
+/* 
+Text Decoration-
+    1. underline
+    2. overline
+    3. none
+    4. line-through 
+    5. */
+
+
+
+
