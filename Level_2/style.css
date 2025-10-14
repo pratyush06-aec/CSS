@@ -15,14 +15,14 @@
     2. border-style
     3. border-color */
 
-div{
+/* div{
     height:100px;
     width:200px;
     background-color:yellow;
     border-width:10px;
     border-style:double;
     border-color:blue;
-}
+} */
 
 
 /* Text Alignment also can be aligned according to the user defined height and width. */
@@ -74,3 +74,17 @@ button{
     /* padding:1px 2px 3px 4px;        This indicates the pixel values in order(top, right, botton, left) i.e, clock-wise direction */
 }
 
+
+/* Margin 
+    1. Margin is the gap between two boxes
+    2. Shorthand margin is can also be set individually for all directions as well as a single value can be given which is applied in all directions.
+    3. It is also given in pixel value
+    4. In case of shorthand margin, clock-wise rotation is also followed here for giving individual pixels/margin for all directions. */
+
+
+div{
+    background-color:rgb(0, 187, 255);
+    /* margin:50px;                                It is applied in all directions, for all th div(S). */
+    /* margin:1px 2px 3px 4px;                  Here, the top margin is 1px, followed by the right, bottom and left. */
+    margin-top:60px;                      /*  Here, the top margin for all the div(S) is set to 60px. */
+}
