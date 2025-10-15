@@ -2,5 +2,40 @@ div{
     background-color:green;
     margin:100px;
     color:white;
-    /* display:inline-block; */
+    display:inline-block;
+    height:100px;
 }
+
+/* #div_two{
+    display:none;
+} */
+
+
+/* Display Property-
+    1. inline - It takes the space as much required by the text(no margin/padding can be added).
+    2. block - It takes the whole width space
+    3. inline-block - It acts as inline elements but we can add margin/ padding and all to it now.
+    4. none- It removes the element from the page and do not allocate an empty space for it seperately. Th next elements takes the place of the deleted element. */
+    
+    
+/* #div_two{
+    visibility:hidden;
+} */
+
+
+/** Visibility hidden means, it reserves the space for the elements where the hidden property of visibility is applied, unlike display property. */
+
+
+/* Alpha Channel
+    rgba(red-green-blue-alpha)- Here, alpha denotes the opacity, i.e, how much darker or lighter an applied color would be. */
+
+
+#div_two{
+    background-color:rgba(0, 0, 255, 0.75);
+}
+
+
+/* 0(opacity) denotes the lightest shade of a color.
+    1(opacity) denotes the darkest shade of a color. */
+
+
