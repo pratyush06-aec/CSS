@@ -1,0 +1,24 @@
+/* #parent{
+    height:100px;
+    width:100px;
+    background-color:red;
+    font-size: 20px;
+} */
+
+/* #child{ */
+    /* height:20%;                This means 20% of the height of parent */
+    /* width:30%;                This means 30% of the width of #parent */
+    /* background-color:blue; */
+    /* font-size:3em;                This means two times the font size of #parent */
+    /* width:5em;                  This means the width is five times the font-size of #child */
+    /* width:5rem;             rem inherits the font-size of the root tag of a document, i.e, by default if the font-size in my devise is 16px, then as per in this styling document the width would be (five times of sixteen, i.e, 80px) */
+    /* height:1vh;                This means 1% of the height of my devise screen */
+    /* width:2vw;                  This means 2% of the height of my devise screen */
+/* } */
+
+
+/* Always not only the parents font-size is being followed for all properties, the child also independently have the font-size for some properties */
+
+
+
+
