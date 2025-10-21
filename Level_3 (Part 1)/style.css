@@ -20,5 +20,131 @@
 /* Always not only the parents font-size is being followed for all properties, the child also independently have the font-size for some properties */
 
 
+/* #div_one{                         Ex- of relative position. 
+    position:relative;
+    top:30px;
+    background-color:blue;
+}
+
+#div_two{
+    position:relative;
+    bottom:30px;
+    background-color:red;
+}
+
+#div_three{
+    position:relative;
+    left:30px;
+    background-color:yellow;
+} */
 
 
+
+
+/* #div_one{                        Ex- of absolute position. (Removed from document flow).
+    position:static;
+    background-color:red;
+}
+
+#div_two{
+    position:static;
+    background-color:blue;
+}
+
+#div_three{
+    position:absolute;
+    bottom:30px;                  The position shift occurs with respect to the main content area.
+    background-color:green;
+} */
+
+
+
+/* #div_one{                         /* Ex- of static position. 
+    position:static;
+    top:70px;                         /* Position shift doesn't occur at all with static position.
+    background-color:red;
+}
+
+#div_two{
+    position:static;
+    background-color:aliceblue;
+}
+
+#div_three{
+    position:static;
+    background-color:yellow;
+} */
+
+
+/* 
+#div_one{                          Example of fixed position.
+    position:fixed;
+    top:30px;                   Position shifts in accordance to the browsers window.
+    background-color:red;            
+}
+
+#div_two{
+    position:fixed;
+    top:60px;
+    background-color:blue;
+}
+
+#div_three{
+    position:fixed;
+    background-color:yellow;
+} */
+
+
+
+/* #div_one{                        Ex- of sticky position. 
+    position:fixed;
+    top:60px;
+    background-color:red;
+}
+
+#div_two{
+    position:sticky;
+    top:600px;                           When the position arrives it gets fixed with the scroll of the user. 
+    background-color:blue;
+}
+
+#div_three{
+    position:static;
+    background-color:green;
+} */
+
+
+
+/* #div_one{
+    position:static;
+    top:40px;
+    background-color:orange;
+} */
+
+/* #div_one{
+    position:relative;
+    top:30px;
+    z-index:1;
+    background-color:orange;
+}
+
+/* #div_two{
+    position:static;
+    z-index:1;
+    background-color:blue;
+} */ /*
+
+#div_two{
+    position:relative;
+    left:40px;
+    z-index:3;                        The (z-index) value for the second div tag is more than the first one. So, it is placed at the top of the first div tag.
+    background-color:blue;
+}
+
+#div_three{
+    position:relative;
+    background-color:yellow;
+} */
+
+
+/* But by default, the latest element is placed on the top and the previous one is placed at the bottom. */
