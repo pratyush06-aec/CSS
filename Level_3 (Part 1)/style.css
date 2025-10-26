@@ -148,3 +148,12 @@
 
 
 /* But by default, the latest element is placed on the top and the previous one is placed at the bottom. */
+
+
+body{
+    background-image: url("devfest.jpg");
+    /* background-size: cover;                     It fits the image into the mentioned space */
+    /* background-size: contain;                It fits the complete image into the mentioned space */
+    /* background-repeat:no-repeat;             It determines that the image is not repeated */
+    /* background-size:auto;                       By default auto is the background-size of any image  */
+}
