@@ -1,0 +1,59 @@
+body{
+    text-align:center;
+}
+
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px dotted black;
+}
+
+.container{
+    display:flex;                     /* This indicates that we have started using flex-box */ 
+    height:800px;
+    width:1200px;
+    /* flex-direction:row;            By default, the flex-direction is row only. Here, the main axis is from left to right(horizontal). */
+    /* flex-direction:row-reverse;          In case of row reverse, the main axis is from right to left(horizontal) */
+    /* flex-direction:column;               Here, the main axis is from top to bottom direction. */
+    /* flex-direction:column-reverse;              Here, the main axis is from bottom to top direction. */
+    /* justify-content:flex-start;             As by default the flex direction is always row so here, flex-start starts from left to right direction */
+    /* justify-content:flex-end;               flex-end shift the position of the contents inside the container to right direction, but the order remains the same like flex-start unlike row-reverse. */
+    /* justify-content:center;                 It places the contents at the center of the container. */
+    /* justify-content:space-between;                  Gives the space in between the contents inside the container. */
+    /* justify-content: space-evenly;                  The space in between the contents of the container is given evenly. */
+    /* justify-content: space-around;                      The space between the last content and the border of the conatiner is half of the space between the contents themselves. */
+    /* The same is applied for the column(flex-direction) as well. */
+    /* flex-wrap:nowrap;                       No spacing occurs between the boxes and they remain the same. */
+    /* flex-wrap:wrap;                         Space generates between the boxes but the empty space is generated at the below between the box and the border of the container. */
+    /* flex-wrap:wrap-reverse;                Space generates between the objects and the empty space is generates above between the box and the border of the container. */
+    /* align-items:center;                     Space would be generated because of wrapping because it acts on the whole container. */
+    /* align-content:flex-end;                 No space would be generated in between because of the wrapping. */
+    /* align-self:center;                   It acts on items of the container. */
+}
+
+#div_one{
+    background-color:red;
+}
+
+#div_two{
+    background-color:blue;
+    /* align-self:flex-end;                    align-self would be given highest priority among all the properties applied on the container. It shifts the position according to the cross-axis. */
+}
+
+#div_three{
+    background-color:violet;
+    /* flex-shrink:2; */
+    flex-grow: 5;
+}
+
+#div_four{
+    background-color:orange;
+}
+
+
+/* flex-grow property is used to grow an element by a factor of sometimes for ex.(1 times) compared to other elements.
+    Basically it's used when the width of the container is much more as compared to the estimated required area of the elements.
+
+   flex-shink is used when the width of the container is much less as compared to the estimated area required by the elements.
+        Basically, it's used to reduce the size of an elements by sometimes for ex.(2 times) as compared to the other elements.

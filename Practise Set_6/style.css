@@ -1,0 +1,35 @@
+.navbar{
+    background-color:pink;
+    height:50px;
+    width:1500px;
+    border:2px solid black;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+a{
+    /* background-color:aqua; */
+    margin:5px dotted black;
+    text-decoration:none;
+    color:red;
+}
+
+li{
+    list-style-type:none;
+}
+
+.outer{
+    background-color:red;
+    height:500px;
+    width:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.inner{
+    background-color:yellow;
+    height:100px;
+    width:100px;
+    align-self:flex-end;                    /* align-self has the heighest priority in between align-items and align-self. */
+}
