@@ -1,0 +1,35 @@
+div{
+    height:200px;
+    width:200px;
+    background-color:aquamarine;
+    color:black;
+    /* transition-property:all;                It tells us on which objects the transition is applied. */
+    /* transition-duration:2s;                 It tells us for how long the transition would go on. */
+    /* transition-timing-function:ease-out;                    It tells us which particular transition style is applied. */
+    /* transition-delay:1s;                    It tells us after how much time the transition would start. */
+     transition:all 2s ease-out 1s;          /* This is the shorthand for writing the transition. Here, all indicates the transition-property i.e, on which objects the transition is applied, followed by the transition-duration, transition-timing-function, transition-delay. */
+    /* transform:rotate(45deg);                This is used for rotating an element. */
+    /* rotate:x 180deg;                    It rotates the elements in accordance to x-axis. */
+    /* transform: scale(2);                It maximizes the object from all directions. */
+    /* transform:scaleX(3);                    It maximizes the width of the object i.e, along the x-axis. It can also be done along the y-axis. */
+    /* transform: scale(2, 1);                 It maximizes along the x-axis and remainssam ealong the y-axis. Here, 2(x-axis) and 1(y-axis). */
+}
+
+div:hover{                                   /* hover is a pseudoclass. There are many more pseudoclasses, like hover, active. etc. */
+    background-color:red;                         
+    color:white;
+    font-size:70px;
+    /* transform:translateY(45px);             The translation is applied to the object along y-axis. It can be done in both directions by setting positive/negative values. */
+    /* transform:translate(100px, 50px);               Here, 100px indicates translation along x-axis and 50px indicates translation along y-axis. */
+    /* By default, the translation occurs along x-axis, i.e, if no axis is mentioned forex- transform:translate(100px); then it would occur along x-axis only. */
+}
+
+
+/* hover means whenever we hover over any icon or button. */
+
+/* active means whenever we click any object or button. */
+
+/* hover and active are the most used pseudoclasses. */
+
+/* The scale and rotate property can also be applied along with transition to make the documanet look more attractive.
+    This can be done by setting the scale or/and rotate inside the div and applying the transition to the whole document and vice-versa. */

@@ -1,0 +1,36 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:pink;                      /* This is the default background-color of the div. */
+}
+
+/* @media (min-width:300px) and (max-width:500px){                      This indicates that from width 300px to 500px, keep the color of the screen as red. 
+    div{
+        background-color:red;
+    }
+} */
+
+/* Media query helps in setting customized features in accordance to the screen width and height.
+    In most of the cases, all the things are done in accordance to customized width only. */
+
+
+/* @media(width:200px){                        This sets that when the width of the screen is 200px, set the color to blue.
+    div{
+        background-color:blue;
+    }
+} */
+
+
+/* @media(min-width:500px){                            This indicates that whenever the width of the screen goes to 500px and above, the screen color is set to orange.  
+    div{
+        background-color:orange;
+    }
+} */
+
+
+
+@media(max-width:300px){                           /* This indicates that whenever the width of the screen goes to 300px and below the screen color is set to violet. */ 
+    div{
+        background-color:violet;
+    }
+}
