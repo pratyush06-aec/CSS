@@ -43,5 +43,78 @@ Text Decoration-
     5. */
 
 
+/* Font Weight- It is used to make the text bold or lighter. It takes values from 100 to 900. */
+#h_1{
+    font-weight:100;
+}
+#h_2{
+    font-weight:normal;
+}
+#h_3{
+    font-weight:bold;
+}
+#h_4{
+    font-weight:900;
+}
 
 
+/* We can write lighter, normal, bold, bolder and can only write the values of them olaso, respectively.
+    Like= 100(min) stands for lighter
+    400 stands for bold 
+    900(max) stands for bolder */
+    
+
+/* In case of headings, by default te font-weight is always bold. */
+
+/* Font familty- It is used to change the font of the text.
+    Only the font name that a particular browser indentifies can be implemented, in it.
+    We can set multiple fonts, for same paragraph or write-up */
+
+
+#paragraph_one{
+    font-family:arial, roboto, verdana, sans-serif, serif;   /* Fall back mechanism plays the role here, i.e, when multiple fonts are applied for the same then, the first applied font that is available in that particular browser would be applied */
+}
+#paragraph_two{
+    font-family:verdana;
+}
+
+
+/* There are two types of font families-
+    1. Generic font family- It is a type of font family that is available in all the browsers. It includes serif, sans-serif, monospace, cursive, fantasy.
+    2. Specific font family- It is a type of font family that is not available in all the browsers. It includes Arial, Roboto, Verdana, Times New Roman, etc. */
+
+
+
+/* Units in CSS-
+1. Absolute units- It includes px, cm, mm, in, pt, pc. But the most used is the (px) unit 
+    96px= 1inch= 2.54cm */
+
+
+#paragraph_one{
+    font-size:30px;
+    text-transform:uppercase;
+}
+#paragraph_two{
+    font-size:10px;
+    text-transform:lowercase;
+    /* text-transform:capitalize; */
+}
+
+
+/* Line Height- It is used to set the space between two lines of a paragraph. It can take both unit values and number values. 
+    The default line-height value is 1.2 */
+
+
+p{
+    line-height:"30px";
+}
+
+p{
+    line-height:normal;
+}
+
+/* Text Transform- It is used to change the case of the text. It includes three values-
+1. uppercase- It changes the text to upper case.
+2. lowercase- It changes the text to lower case.
+3. capitalize- It capitalizes the first letter of each word. 
+4. none- It cancels out the pre-set case of text. */

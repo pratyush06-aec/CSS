@@ -1,0 +1,116 @@
+/* h1{
+    color:blue;                        /* The foreground-color is set 
+} */
+
+
+/* (h1) is called the selctor
+    {color:blue;} is called the property value pair 
+    (color)- Property
+    (blue)- Value */
+
+
+
+    
+/* In case of priority order, if all three are ways of styling is applied on a single html file-
+        (in-line styling > external linking of stylesheet) */
+
+
+
+/* Three ways of styling-
+        1. in-line styling
+        2. using (<style> tag)
+        3. externally linking the stylesheet/file */
+
+
+
+/* Background colors-
+    (background-color: (name of color you want to use);) */
+
+
+
+/* Foreground colors-
+    (color: (name of the color you want to use);) */
+
+
+
+/* body{
+    background-color:red;                  /* The background-color is set. Also ex. of (Element Selector). 
+} */
+
+
+
+/* Color Systems in CSS-
+   1. RGB(Red, Green, Blue)   (The first component indicates red, followed by green and blue)
+   2. HEX(Hexadecimal)  (i.e., 0-15, a total of 16 digits)    (hex means 6 and dec means 10, so a total of 16 digits).
+   3. HSLA
+
+
+
+Syntax of RGB-
+    color: rgb(0, 9, 0); */             /* Here, red is 0, green is 9 and blue is also 0. */
+
+
+
+/* body{
+    background-color: rgb(9, 5, 1);
+} */
+
+
+
+/* RGB & HEX are the two most important and widely used color systems in CSS. */
+
+
+
+/* Syntax of HEX-
+    color:#ff0000; */                /* Here, ff indicates maximum and 00 indicates the minimum values. As there are indications between (0-f) i.e., 255 is max in RGB and here it is writtn as ff and similar goes for 0 in RGB and 00 here. */
+
+
+
+/* body{
+    background-color: #ab1300;              /* Here, ab indicates the section of red, followed by green and blue as 13 and 00 respectively. 
+} */
+
+
+
+/* The changes that we set later in CSS are given priority. For ex- if we set the background-color of the body as pink and there after we change it to green later, then green color would be applied/treated as final one.  */
+
+
+
+/* Different kinds of selectors in CSS-
+    1. Universal Selector (*{})
+    2. Element Selector (name of the selector followed by {}, for ex- h1{property:value;})
+    3. I'd Selector (#name of the I'd followed by {}, for ex- #headingOne{property:value};) 
+    4. Class Selector (.name of the class followed by {}, for ex- .myClass{property:Value};) */
+
+
+#headingOne{
+    color:red;
+}
+
+#headingTwo{
+    color:magenta;                      /* Ex of I'd Selector */
+}
+
+#headingThree{
+    color:green;
+}
+
+
+
+/* *{
+    color:magenta;                /* Ex of Universal Selector                     
+} */
+
+
+
+.myClass{
+    color:orange;                      /* Ex of Class Selector */
+}
+
+
+
+
+
+
+
+    
